@@ -1,2 +1,3 @@
 [2026-07-15 13:43:30] Summary: None
 [2026-07-15 13:46:20] Mindmap: None
+Note: had a histroy side bar but removed it because i did not like it much

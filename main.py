@@ -1,3 +1,4 @@
+# NOTE! THE ACTUAL CODE IS IN STUDYHELPER.PY NOT THIS FILE
 import os
 import streamlit as st
 from dotenv import load_dotenv

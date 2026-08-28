@@ -40,50 +40,14 @@ Learn in your preferred language — Study Helper works across multiple language
 
 ---
 
-## ⚡ Quick Start
-
-### Prerequisites
-- Python 3.8 or higher
-- A [Hugging Face API token](https://huggingface.co/settings/tokens) (free account)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/lilylotustulip/Study-helper.git
-   cd Study-helper
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up your API key**
-   ```bash
-   # Create a .env file in the root directory
-   echo "HUGGINGFACE_API_KEY=your_token_here" > .env
-   ```
-   
-   Get your token from: https://huggingface.co/settings/tokens
-
-4. **Run the app**
-   ```bash
-   streamlit run app.py
-   ```
-
-5. **Open in your browser**
-   ```
-   Local URL: http://localhost:8501
-   ```
-
----
+## HOW TO WORK WITH IT
+it is currently live here: [my study helper](https://study-apper-pwtavy3qh9d8xgecwen4mu.streamlit.app/)
 
 ## 📖 How to Use
 
 ### Step 1: Upload Your Study Material
 - Paste text directly, or
-- Upload a `.txt`, `.pdf`, or other document file
+- Upload a `.txt` file
 
 ### Step 2: Choose Your Mode
 
@@ -118,9 +82,9 @@ Study Helper generates content tailored to your material and learning style.
 
 ```
 Study-helper/
-├── app.py                 # Main Streamlit application
+├── studyhelper.py                 # Main Streamlit application
 ├── requirements.txt       # Python dependencies
-├── .env.example          # Template for environment variables
+├── main.py         
 ├── README.md             # This file
 └── LICENSE               # MIT License
 ```
@@ -145,7 +109,7 @@ Study-helper/
 - For higher limits, upgrade to a paid plan or use your own LLM
 
 ### Custom Prompts
-You can modify the AI prompts by editing the prompt templates in `app.py` to customize the output style.
+You can modify the AI prompts by editing the prompt templates in `studyhelper.py` to customize the output style.
 
 ---
 
@@ -156,17 +120,6 @@ You can modify the AI prompts by editing the prompt templates in `app.py` to cus
 - **Use flashcards early**: Reinforce concepts while they're fresh
 - **Practice regularly**: Spaced repetition improves retention
 - **Combine modes**: Learning + Practice modes together maximize retention
-
----
-
-## 📊 Roadmap
-
-- [ ] Export flashcards to Anki
-- [ ] Dark mode theme
-- [ ] Progress tracking & analytics dashboard
-- [ ] Support for image-based PDFs (OCR)
-- [ ] Custom AI model selection
-- [ ] Offline mode (local LLM)
 
 ---
 
